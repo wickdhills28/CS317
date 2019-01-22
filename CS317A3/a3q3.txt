@@ -1,0 +1,23 @@
+# Steven Nguyen stn812 11213790
+
+
+Questions to answer
+Apply your implementation to the examples in the given data le LatinSquares.txt. Use a time-limit of 10
+seconds for each problem.
+Answer the following questions and submit them:
+
+1. Howmany of the problems did your implementation solve within 10 seconds? Howdoes this compare
+to the previous implementation (A3Q2)?
+    60211 problems where solved. This is faster than A3Q2.
+    Going problem by problem, in the LatinSquares.txt my implementation was able to solve them all.
+
+
+2. Consider the largest N that your implementation as able to solve. Do a rough, back-of-the-envelope
+calculation to predict how much time it would take to solve the next largest problem in the file, and
+the very largest problem in the file. Submit your rough calculations, and your predictions.
+    To solve the next largest in the problem it would take O((N-1)^3) time since there at N options for each cell and there are N^2 cells and we are trying to solve the next largest problem.
+    To solve the very largest problem in the file it would take at most O(N^3) time since there at N options for each cell and there are N^2 cells.
+    From my implementation:
+        The average for all the 3x3 examples is 0.04373764991760254 seconds.
+        The average for all the 4x4 examples is 0.04515401522318522 seconds.
+        So it takes 103.23832055048905 percent more time to calculate the next largest problem.

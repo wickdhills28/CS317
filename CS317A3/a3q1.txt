@@ -1,0 +1,19 @@
+# Steven Nguyen stn812 11213790
+
+
+
+Questions to answer
+Apply your implementation to the examples in the given data le LatinSquares.txt. Use a time-limit of 10
+seconds for each problem.
+Answer the following questions and submit them:
+
+1. How many of the problems did your implementation solve within 10 seconds?
+    My implementation failed to solve any problems.
+
+2. Consider the largest N that your implementation as able to solve. Do a rough, back-of-the-envelope
+calculation to predict how much time it would take to solve the next largest problem in the file, and
+the very largest problem in the file. Submit your rough calculations, and your predictions.
+    To solve the next largest in the problem it would take O((N-1)^3) time since there at N options for each cell and there are N^2 cells and we are trying to solve the next largest problem.
+    To solve the very largest problem in the file it would take at most O(N^3) time since there at N options for each cell and there are N^2 cells.
+    It took on average 10.10474705696106 seconds to solve a 3x3 and on average 10.274797916412354 seconds for a 4x4.
+    That shows a 101.68288091223567 percent increase so it my prediction is that it would take that much longer to solve the next largest example.

@@ -1,0 +1,4 @@
+# Steven Nguyen stn812 11213790
+
+Make sure A1Search.py, Frontier.py, a3q1.py, a3q2.py, a3q3.py, and a3q4.py are all in the same folder.
+Go to a3q3.py and hit run.

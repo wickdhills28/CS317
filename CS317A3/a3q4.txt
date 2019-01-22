@@ -1,0 +1,18 @@
+# Steven Nguyen stn812 11213790
+
+
+
+Questions to answer
+Apply your implementation to the examples in the given data le LatinSquares.txt, using a time-limit of
+10 seconds for each problem in this le. Then apply your implementation to the examples in the given data
+le harder_examples.txt, using a time-limit of 200 seconds for each problem in this le.
+Answer the following questions and submit them:
+
+1. How many of the problems did your implementation solve within the time limit? How does this compare
+to the previous implementation (A3Q3)?
+    71947 problems where solved. This is close to but still faster than A3Q3.
+        Going problem by problem, in the LatinSquares.txt my implementation was able to solve them all.
+        It took 9.029114007949829 seconds to solve all the problems in LatinSquares.txt
+
+
+
